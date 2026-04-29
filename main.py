@@ -14,7 +14,7 @@ CHUNK_OVERLAP = 100
 TOP_K = 4
 
 # Gemini setup
-genai.configure(api_key="AIzaSyDA4vGKBDFcMdQSxZ-UtA651YxRpIZkbUU")
+genai.configure(api_key="Add you api key")
 llm = genai.GenerativeModel("gemini-2.5-flash")
 for m in genai.list_models():
     print(m.name)
